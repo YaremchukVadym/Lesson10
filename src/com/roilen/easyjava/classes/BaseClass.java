@@ -2,10 +2,10 @@ package com.roilen.easyjava.classes;
 
 public interface BaseClass {
     void attack();
-    void restoreHealth();
-    void loseHealth();
-    void restoreMana();
-    void upMana();
+    void restoreHealth(int amount);
+    void loseHealth(int amount);
+    void restoreMana(int amount);
+    void loseMana(int amount);
     void levelUp();
     void info();
 }
